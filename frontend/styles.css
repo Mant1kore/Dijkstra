@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: url('Кот.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+textarea, input, button {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 400px;
+}
+
+pre {
+    background: #f0f0f0;
+    padding: 10px;
+    max-width: 400px;
+    overflow: auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#graph-container {
+    margin-top: 20px;
+}

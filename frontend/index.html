@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dijkstra Algorithm</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Алгоритм Дейкстры</h1>
+    <form id="dijkstra-form">
+        <label for="nodes">Узлы (через запятую):</label>
+        <input type="text" id="nodes" name="nodes" placeholder="A,B,C,D,E,F">
+        
+        <label for="edges">Ребра (формат: узел1,узел2,вес; узел1,узел2,вес; ...):</label>
+        <input type="text" id="edges" name="edges" placeholder="A,B,2; A,C,5; B,C,6; B,D,1; B,E,3; C,E,8; D,E,4; D,F,2; E,F,3">
+        
+        <label for="startNode">Начальный узел:</label>
+        <input type="text" id="startNode" name="startNode" placeholder="A">
+        
+        <button type="submit">Calculate</button>
+    </form>
+    <h2>Results</h2>
+    <pre id="results"></pre>
+    <div id="graph-container"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.7.0/d3.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
